@@ -1,0 +1,8 @@
+book ( title, author_id )
+primary key: ( title, author_id )
+
+author ( author_first_name, author_last_name, author_id )
+primary key: ( author_id )
+
+customer ( first_name, last_name, phone, customer_id )
+primary key: ( customer_id )
